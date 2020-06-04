@@ -1,0 +1,37 @@
+.menu-info {
+    background-color: #0A0928;
+    color: #ffffff;
+    margin-bottom: 3px !important;
+}
+
+.subMenu {
+    background-color: #0A0928 !important;
+    color: #ffffff;
+}
+
+.bg-dark {
+    background-color: #0A0928 !important;
+}
+.menuLink {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.menuLink:hover {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.menuLink2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: -20px;
+    float: right;
+}
+
+.menuLink2:hover {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: -20px;
+    float: right;
+}

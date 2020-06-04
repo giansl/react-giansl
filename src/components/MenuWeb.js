@@ -3,18 +3,27 @@ import {
     Navbar,
     Nav
 } from 'react-bootstrap';
+import './MenuWeb.css';
 
 class MenuWeb extends React.Component {
 
     render() {
         return (
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Home</Navbar.Brand>
+            <>
+            <Nav className="justify-content-end menu-info" activeKey="/home">
+                <Nav.Item>
+                    <Nav.Link href="/home" className="menuLink">GIAN CARLOS SOLIS LINARES</Nav.Link>
+                    <Nav.Link href="/home" className="menuLink2">PROGRAMADOR WEB FREELANCE</Nav.Link>
+                </Nav.Item>
+            </Nav>
+            <Navbar collapseOnSelect expand="lg" variant="dark" className="subMenu">
+                <Navbar.Brand href="#home">INICIO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                    <Nav.Link href="#features">Proyects</Nav.Link>
-                    <Nav.Link href="#pricing">Ekills</Nav.Link>
+                    <Nav.Link href="#features">¿QUIEN SOY?</Nav.Link>
+                    <Nav.Link href="#pricing">PROYECTOS</Nav.Link>
+                    <Nav.Link href="#deets">CONTACTO</Nav.Link>
                     {/*
                     <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -25,14 +34,16 @@ class MenuWeb extends React.Component {
                     </NavDropdown>
                     */}
                     </Nav>
+                    {/*
                     <Nav>
-                    <Nav.Link href="#deets">Contacto</Nav.Link>
                     <Nav.Link eventKey={2} href="#memes">
                         Sobre Mi
                     </Nav.Link>
                     </Nav>
+                    */}
                 </Navbar.Collapse>
             </Navbar>
+            </>
         );
     }
 
