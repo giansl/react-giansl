@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-giansl/static/css/main.2b7ad184.chunk.css",
+    "main.js": "/react-giansl/static/js/main.3d59c8cd.chunk.js",
+    "main.js.map": "/react-giansl/static/js/main.3d59c8cd.chunk.js.map",
+    "runtime-main.js": "/react-giansl/static/js/runtime-main.0cee9a81.js",
+    "runtime-main.js.map": "/react-giansl/static/js/runtime-main.0cee9a81.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/react-giansl/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.4bedd98d.chunk.js": "/react-giansl/static/js/2.4bedd98d.chunk.js",
+    "static/js/2.4bedd98d.chunk.js.map": "/react-giansl/static/js/2.4bedd98d.chunk.js.map",
+    "index.html": "/react-giansl/index.html",
+    "precache-manifest.4678ff5d8c9add4a1b5aaaf94a6826ca.js": "/react-giansl/precache-manifest.4678ff5d8c9add4a1b5aaaf94a6826ca.js",
+    "service-worker.js": "/react-giansl/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/react-giansl/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.2b7ad184.chunk.css.map": "/react-giansl/static/css/main.2b7ad184.chunk.css.map",
+    "static/js/2.4bedd98d.chunk.js.LICENSE.txt": "/react-giansl/static/js/2.4bedd98d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cee9a81.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.4bedd98d.chunk.js",
+    "static/css/main.2b7ad184.chunk.css",
+    "static/js/main.3d59c8cd.chunk.js"
+  ]
+}
